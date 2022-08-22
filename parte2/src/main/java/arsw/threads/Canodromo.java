@@ -84,7 +84,7 @@ public class Canodromo extends JFrame {
 		butPanel.add(butContinue);
 		cont.add(butPanel, BorderLayout.SOUTH);
 
-		this.setSize(butWidht * longPista, butHeight * nCarriles + 400);
+		this.setSize(butWidht * longPista, butHeight * nCarriles + 200);
 
 		// Get the size of the screen
 		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();

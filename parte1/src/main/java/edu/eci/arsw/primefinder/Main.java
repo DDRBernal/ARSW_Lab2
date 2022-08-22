@@ -25,7 +25,7 @@ public class Main {
 		pft3.wait();
 
 	    //Check if the thread is sleeping
-		while (pft.getState() == "TIMED_WAITING"){
+		while (pft.getState().equals("TIMED_WAITING")){
 
 		}
 
